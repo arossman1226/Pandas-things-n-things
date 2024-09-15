@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pandas Things N Things</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Pandas Things N Things</h1>
+    </header>
+    <section>
+        <p>Welcome to my creative space! Explore my ongoing projects, check out my blog, and browse my custom artwork for sale.</p>
+    </section>
+</body>
+</html>
