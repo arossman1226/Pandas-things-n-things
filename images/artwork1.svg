@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="dreamyBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFB6C1;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#FFB0C9;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F08080;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="moonGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#FFFACD;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#FFE4B5;stop-opacity:0.3" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Sky background -->
+  <rect width="400" height="500" fill="url(#dreamyBg)"/>
+  
+  <!-- Moon -->
+  <circle cx="350" cy="80" r="50" fill="#FFFACD" opacity="0.9"/>
+  <circle cx="350" cy="80" r="50" fill="url(#moonGlow)"/>
+  
+  <!-- Stars -->
+  <circle cx="80" cy="50" r="2" fill="#FFFFFF" opacity="0.8"/>
+  <circle cx="150" cy="40" r="1.5" fill="#FFFFFF" opacity="0.7"/>
+  <circle cx="120" cy="100" r="1" fill="#FFFFFF" opacity="0.6"/>
+  <circle cx="200" cy="30" r="2" fill="#FFFFFF" opacity="0.8"/>
+  <circle cx="280" cy="60" r="1.5" fill="#FFFFFF" opacity="0.7"/>
+  
+  <!-- Panda head -->
+  <circle cx="200" cy="280" r="70" fill="#FFFFFF" stroke="#333" stroke-width="2"/>
+  
+  <!-- Panda ears -->
+  <circle cx="155" cy="220" r="25" fill="#000" stroke="#333" stroke-width="1"/>
+  <circle cx="245" cy="220" r="25" fill="#000" stroke="#333" stroke-width="1"/>
+  
+  <!-- Panda eyes -->
+  <circle cx="175" cy="270" r="18" fill="#000"/>
+  <circle cx="225" cy="270" r="18" fill="#000"/>
+  <circle cx="180" cy="265" r="8" fill="#FFFFFF" opacity="0.7"/>
+  <circle cx="230" cy="265" r="8" fill="#FFFFFF" opacity="0.7"/>
+  
+  <!-- Panda nose -->
+  <ellipse cx="200" cy="305" rx="8" ry="10" fill="#000"/>
+  
+  <!-- Panda mouth -->
+  <path d="M 200 305 Q 190 320 180 315" stroke="#000" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M 200 305 Q 210 320 220 315" stroke="#000" stroke-width="2" fill="none" stroke-linecap="round"/>
+  
+  <!-- Panda body -->
+  <ellipse cx="200" cy="380" rx="55" ry="65" fill="#FFFFFF" stroke="#333" stroke-width="2"/>
+  
+  <!-- Panda arms -->
+  <ellipse cx="150" cy="350" rx="20" ry="50" fill="#000" transform="rotate(-30 150 350)"/>
+  <ellipse cx="250" cy="350" rx="20" ry="50" fill="#000" transform="rotate(30 250 350)"/>
+  
+  <!-- Panda legs -->
+  <ellipse cx="170" cy="440" rx="22" ry="35" fill="#000"/>
+  <ellipse cx="230" cy="440" rx="22" ry="35" fill="#000"/>
+  
+  <!-- Crown/tiara -->
+  <g>
+    <ellipse cx="200" cy="200" rx="80" ry="15" fill="#FFD700" stroke="#DAA520" stroke-width="2"/>
+    <polygon points="140,200 135,160 160,190" fill="#FFD700" stroke="#DAA520" stroke-width="1.5"/>
+    <polygon points="200,200 195,140 205,140" fill="#FFD700" stroke="#DAA520" stroke-width="1.5"/>
+    <polygon points="260,200 265,160 240,190" fill="#FFD700" stroke="#DAA520" stroke-width="1.5"/>
+    <!-- Jewels -->
+    <circle cx="140" cy="200" r="6" fill="#FF1493"/>
+    <circle cx="200" cy="195" r="8" fill="#FF69B4"/>
+    <circle cx="260" cy="200" r="6" fill="#FF1493"/>
+  </g>
+  
+  <!-- Sparkles around panda -->
+  <g opacity="0.7">
+    <text x="100" y="250" font-size="24">✨</text>
+    <text x="300" y="300" font-size="20">✨</text>
+    <text x="120" y="380" font-size="18">✨</text>
+    <text x="300" y="400" font-size="22">✨</text>
+  </g>
+  
+  <!-- Floating hearts -->
+  <g opacity="0.6">
+    <text x="80" y="150" font-size="28">💖</text>
+    <text x="320" y="180" font-size="26">💖</text>
+    <text x="100" y="420" font-size="24">💖</text>
+  </g>
+</svg>

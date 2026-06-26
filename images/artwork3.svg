@@ -1,14 +1,82 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500">
+  <!-- Serene nature background -->
   <defs>
-    <linearGradient id="grad3" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#43e97b;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#38f9d7;stop-opacity:1" />
+    <linearGradient id="natureBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#E0F6FF;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#B8E6F0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#A8D8EA;stop-opacity:1" />
     </linearGradient>
+    <radialGradient id="sunlight" cx="50%" cy="30%" r="40%">
+      <stop offset="0%" style="stop-color:#FFD700;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#FFA500;stop-opacity:0.1" />
+    </radialGradient>
   </defs>
-  <rect width="400" height="300" fill="url(#grad3)"/>
-  <ellipse cx="200" cy="150" rx="100" ry="80" fill="#ffffff" opacity="0.2"/>
-  <path d="M 100 200 Q 120 150 140 200" stroke="#ffffff" stroke-width="3" fill="none" opacity="0.3"/>
-  <path d="M 200 200 Q 220 120 240 200" stroke="#ffffff" stroke-width="3" fill="none" opacity="0.3"/>
-  <path d="M 300 200 Q 320 150 340 200" stroke="#ffffff" stroke-width="3" fill="none" opacity="0.3"/>
-  <text x="200" y="160" font-size="60" text-anchor="middle" fill="#ffffff" font-family="Arial">🌸🎋</text>
+  
+  <rect width="400" height="500" fill="url(#natureBg)"/>
+  <rect width="400" height="500" fill="url(#sunlight)"/>
+  
+  <!-- Sun -->
+  <circle cx="350" cy="60" r="40" fill="#FFD700" opacity="0.8"/>
+  <circle cx="350" cy="60" r="35" fill="#FFED4E" opacity="0.6"/>
+  
+  <!-- Distant mountains -->
+  <polygon points="0,350 150,200 300,350" fill="#B0E0E6" opacity="0.4"/>
+  <polygon points="100,350 250,220 400,350" fill="#87CEEB" opacity="0.35"/>
+  
+  <!-- Water reflection -->
+  <rect x="0" y="380" width="400" height="120" fill="#87CEEB" opacity="0.3"/>
+  <line x1="0" y1="380" x2="400" y2="380" stroke="#B0E0E6" stroke-width="1" opacity="0.5"/>
+  
+  <!-- Bamboo stalks -->
+  <g>
+    <!-- Left bamboo -->
+    <line x1="80" y1="500" x2="70" y2="250" stroke="#228B22" stroke-width="8" stroke-linecap="round" opacity="0.8"/>
+    <circle cx="75" cy="280" r="12" fill="#32CD32" opacity="0.6"/>
+    <circle cx="70" cy="300" r="13" fill="#32CD32" opacity="0.7"/>
+    <circle cx="72" cy="320" r="11" fill="#32CD32" opacity="0.6"/>
+    
+    <!-- Right bamboo -->
+    <line x1="320" y1="500" x2="330" y2="280" stroke="#228B22" stroke-width="8" stroke-linecap="round" opacity="0.8"/>
+    <circle cx="325" cy="310" r="12" fill="#32CD32" opacity="0.6"/>
+    <circle cx="330" cy="330" r="13" fill="#32CD32" opacity="0.7"/>
+    <circle cx="335" cy="350" r="11" fill="#32CD32" opacity="0.6"/>
+  </g>
+  
+  <!-- Flowing water lines -->
+  <g stroke="#87CEEB" stroke-width="2" fill="none" opacity="0.5">
+    <path d="M 0 400 Q 100 395 200 405 T 400 400"/>
+    <path d="M 0 425 Q 100 420 200 430 T 400 425"/>
+    <path d="M 0 450 Q 100 445 200 455 T 400 450"/>
+  </g>
+  
+  <!-- Cherry blossoms / floating flowers -->
+  <g opacity="0.7">
+    <circle cx="120" cy="150" r="6" fill="#FFB6C1"/>
+    <circle cx="110" cy="160" r="4" fill="#FFB6C1"/>
+    <circle cx="130" cy="160" r="4" fill="#FFB6C1"/>
+    <circle cx="115" cy="145" r="4" fill="#FFB6C1"/>
+    <circle cx="125" cy="145" r="4" fill="#FFB6C1"/>
+  </g>
+  
+  <g opacity="0.6">
+    <circle cx="280" cy="120" r="6" fill="#FFB6C1"/>
+    <circle cx="270" cy="130" r="4" fill="#FFB6C1"/>
+    <circle cx="290" cy="130" r="4" fill="#FFB6C1"/>
+    <circle cx="275" cy="115" r="4" fill="#FFB6C1"/>
+    <circle cx="285" cy="115" r="4" fill="#FFB6C1"/>
+  </g>
+  
+  <!-- Lantern - mystical element -->
+  <g opacity="0.5">
+    <rect x="185" y="200" width="30" height="40" fill="#FFD700" stroke="#DAA520" stroke-width="2" rx="3"/>
+    <line x1="185" y1="215" x2="215" y2="215" stroke="#DAA520" stroke-width="1"/>
+    <line x1="185" y1="230" x2="215" y2="230" stroke="#DAA520" stroke-width="1"/>
+    <circle cx="200" cy="210" r="3" fill="#FF8C00"/>
+  </g>
+  
+  <!-- Decorative swirls -->
+  <g stroke="#B0E0E6" stroke-width="2" fill="none" opacity="0.4">
+    <path d="M 30 100 Q 50 80 70 100"/>
+    <path d="M 350 450 Q 370 430 390 450"/>
+  </g>
 </svg>
